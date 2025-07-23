@@ -1,0 +1,57 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+body{
+    margin-top: 40px;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin:auto;
+    padding: 10px;
+    padding-inline: 20px;
+    background-color: white;
+    border: 1px solid #342f2f;
+    max-width: 1000px;
+}
+
+.header-name{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: -2px;
+}
+
+.header-personal-details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.education-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-location-cgpa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-list{
+    margin-bottom: 8px;
+}
+
+.achievements-list{
+    margin-bottom:8px;
+}

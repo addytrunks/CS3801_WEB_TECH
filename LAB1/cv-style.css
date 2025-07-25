@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-align: justify;
   font-family: Arial, sans-serif;
+  text-align: justify;
 }
 
 body {
@@ -13,19 +13,41 @@ body {
 
 .cv-container {
   max-width: 900px;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
-  padding: 20px 30px;
-  border: 1px solid #ccc;
+  padding: 25px 35px;
+  border: 1px solid #aaa;
 }
 
-h1, h2 {
-  margin-bottom: 10px;
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 5px;
 }
 
 h2 {
   font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   text-decoration: underline;
+}
+
+.cv-header p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.cv-header a {
+  color: #000;
+  text-decoration: none;
+}
+
+.cv-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 4px;
 }
 
 p, li {
@@ -33,23 +55,11 @@ p, li {
   line-height: 1.6;
 }
 
-.cv-header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.cv-header a {
-  text-decoration: none;
-  color: #333;
-}
-
-.cv-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 4px;
-}
-
 ul {
   margin-left: 20px;
-  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-bottom: 15px;
 }

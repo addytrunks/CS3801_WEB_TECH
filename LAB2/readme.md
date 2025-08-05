@@ -1,4 +1,4 @@
-****# 🌤️ Weather Dashboard
+# 🌤️ Weather Dashboard
 
 A minimalistic weather dashboard web application that fetches and displays current weather data for any city using the [OpenWeatherMap API](https://openweathermap.org/api).
 
@@ -41,7 +41,7 @@ weather-dashboard/
 
 ## 🌍 Live Demo
 
-🔗 [Hosted Link](https://your-username.github.io/weather-dashboard)
+🔗 [Hosted Link](https://dancing-jelly-8c625e.netlify.app)
 
 ---
 

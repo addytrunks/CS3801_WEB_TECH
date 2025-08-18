@@ -6,6 +6,7 @@ import Item from './components/Item';
 function App() {
   return (
     <>
+    <input type="text" placeholder='Search' />
     <Category name="Grocery List">
         <CategoryList name="Fruits">
             <Item name="Apple" price={50}/>
